@@ -111,13 +111,11 @@ header .right_part button {
 #skills_div .profiles_container {
   background: rgba(95, 95, 95, 0.493);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width: 90%;
+  width: 95%;
   margin: 20px auto;
-  padding: 10px;
   border-radius: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 #skills_div .profiles_container .single_profile {
   /* border: 2px solid black; */
@@ -128,6 +126,11 @@ header .right_part button {
   align-items: center;
   background-color: white;
   border-radius: 20px;
+  margin: 20px;
+}
+#skills_div .profiles_container .single_profile img {
+  /* border: 2px solid black; */
+  width: 100%;
 }
 #skills_div .profiles_container .single_profile h2 {
   text-decoration: none;
